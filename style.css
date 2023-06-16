@@ -16,7 +16,8 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-  background-color: #a4a4a4;
+ 
+  background: linear-gradient(#e66465, #719);
   text-align: center;
   padding: 0 2em;
 }
@@ -34,7 +35,7 @@ body {
 }
 h1:hover {
   transform: translate3d(0, -10px, 22px);
-  color: #ff0266;
+  color: #2802ffb1;
 }
 
 .slider h2 {
@@ -98,8 +99,8 @@ a {
 }
 
 .nav-tab:hover {
-  color: #1e1f26;
-  background: #03dac6;
+  color: #1100fd;
+  background: #fffb00d6;
   transition: all 0.5s ease;
 }
 
