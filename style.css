@@ -35,7 +35,7 @@ body {
 }
 h1:hover {
   transform: translate3d(0, -10px, 22px);
-  color: #2802ffb1;
+  color: #2802ffcb;
 }
 
 .slider h2 {
@@ -140,17 +140,17 @@ a {
 @media screen only (min-width: 360px) {
   .nav h1,
   .slider h1 {
-    font-size: 8vw;
+    font-size: 5vw;
   }
 
   .nav h2,
   .slider h2 {
-    font-size: 2vw;
+    font-size: 4vw;
     letter-spacing: 0.2vw;
   }
 
   .nav-tab {
-    font-size: 1.2vw;
+    font-size: 3vw;
   }
 }
 .background {
