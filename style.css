@@ -25,7 +25,7 @@ body {
 .nav h1,
 .slider h1 {
   font-family:'Times New Roman', Times, serif;
-  font-size: 5vw;
+  font-size: 4.5vw;
   margin: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 0.5rem;
@@ -121,38 +121,12 @@ a {
   right: 0;
   z-index: auto;
 }
-@media (min-width: 800px) {
-  .nav h1,
-  .slider h1 {
-    font-size: 5vw;
-  }
 
-  .nav h2,
-  .slider h2 {
-    font-size: 3vw;
-  }
 
-  .nav-tab {
-    font-size: 1.7vw;
-  }
+.nav-tab {
+  font-size: 1.8vw;
 }
 
-@media screen only (min-width: 360px) {
-  .nav h1,
-  .slider h1 {
-    font-size: 5vw;
-  }
-
-  .nav h2,
-  .slider h2 {
-    font-size: 4vw;
-    letter-spacing: 0.2vw;
-  }
-
-  .nav-tab {
-    font-size: 3vw;
-  }
-}
 .background {
   position: absolute;
   height: 100vh;
