@@ -18,18 +18,23 @@ body {
   background: linear-gradient(#e66465, #9198e5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
-  border-radius: 10px;
+  border-radius: 15px;
+  text-align: center;
+
+
 }
 
 .login-box h2 {
-  margin: 0 0 30px;
+  
   padding: 0;
   color: #fff;
   text-align: center;
+  
 }
 
 .login-box .user-box {
   position: relative;
+  
 }
 
 .login-box .user-box input {
@@ -60,6 +65,7 @@ body {
   left: 0;
   color: #03e9f4;
   font-size: 12px;
+  
 }
 
 .login-box form a {
@@ -98,4 +104,35 @@ body {
   height: 2px;
   background: linear-gradient(90deg, transparent, #03e9f4);
   animation: btn-anim1 1s linear infinite;
+}
+
+.Head {
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.h1 {
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+
+
+}
+
+
+.submit {
+  text-align: center;
+  padding: 0;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background: linear-gradient(#e66465, #719);
+  font-style: italic;
 }
