@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Είσοδος στην Υπηρεσία</title>
   <link rel="stylesheet" href="./style.css">
-
+  <script src="script.js"></script>
 </head>
 <body>
 
-  <div class="h1" id="h1"> <h1> Εξαγωγή Τιμής με Αυτοματοποιημένο Τρόπο</h1></div>
-  
+<div class="h1" id="h1"> <h1> Εξαγωγή Τιμής με Αυτοματοποιημένο Τρόπο</h1></div>
 
-<!-- partial:index.partial.html -->
 <div class="login-box">
   <a rel="click here" class="Head" id="Head" href="https://konstantinospoulianidis.github.io/FormPrivateLabel/">ΜΑΧΙ ΑΒΕΕ<br><br></a>
-  
-  <form method="post" action="index.php">
+
+  <form method="post" action="#" onsubmit="return validateForm()">
     <div class="user-box">
       <input type="text" name="username" id="username" required>
       <label>Όνομα Χρήστη</label>
@@ -24,19 +22,31 @@
       <input type="password" name="password" id="password" required>
       <label>Κωδικός Πρόσβασης</label>
     </div>
-    
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <br>
-      <input type="submit" class="submit" id="submit"  value="ΕΙΣΟΔΟΣ">
-    </a>
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <br>
+    <input type="submit" class="submit" id="submit" value="ΕΙΣΟΔΟΣ">
   </form>
 </div>
-<!-- partial -->
-  
+
+<script>
+function validateForm() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  // Έλεγχος των στοιχείων χρήστη
+  if (username !== "Kostas92" || password !== "fostir92") {
+    alert("Παρακαλώ εισάγετε σωστά τον όνομα χρήστη ή τον κωδικό πρόσβασης.");
+    return false;
+  } else {
+    window.location.href = "https://konstantinospoulianidis.github.io/maxi.prices/";
+    return false; // Επιστροφή false για να μην γίνει η προεπιλεγμένη συμπεριφορά της φόρμας
+  }
+}
+</script>
+
 </body>
 </html>
-
-
